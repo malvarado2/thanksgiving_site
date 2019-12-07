@@ -1,0 +1,90 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: block;
+	background-color: purple;
+}
+
+.blk {
+	background-color: #000000
+}
+
+.container {
+	height: 90%;
+	width: 100%;
+	display: flex;
+}
+
+.column {
+	height: 100%;
+	width: calc(100%/3);
+}
+
+.box {
+	max-height: calc(100%/3);
+	max-width: 100%;
+	display: flex;
+}
+
+p {
+	color: white;
+	font-size: 60px;
+	font-family: 'Tangerine', cursive;
+}
+
+.row {
+	height: 10%;
+	width: 100%;
+	background-color: #800080;
+	display: flex;
+}
+
+.center {
+	justify-content: center;
+	align-items: center;
+}
+
+.yes-cursor:hover {cursor: pointer;}
+cursor{cursor: default;}
+
+.none {
+	display:none;
+}
+
+.hover2:hover {
+filter: opacity(75%);
+}
+
+.hover:active { 
+    transform: scale(0.95, 0.95);
+}
+
+.box{
+	height: 100%;
+	width: 100%;
+}
+
+img{
+	max-height: 90%;
+	max-width: 90%;
+}
+
+.img1{
+	content: url ("images/pie.jpeg")
+}
+
+.img2{
+	content: url ("images/thanksgiving1221.jpg")
+}
+
+.img3{
+	content: url ("images/thanksgiving4343.jpg")
+}
+
+.img4{
+	content: url ("images/thanksgiving1234.jpeg")
+}
+.blue{background-color:#0078FF;}
+
+
